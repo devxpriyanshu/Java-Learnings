@@ -1,0 +1,13 @@
+package aptech.fjava.session3;
+
+public class FormatSpecifier {
+
+	public static void main(String[] args) {
+		
+		int i = 55/22;
+		
+		System.out.printf("55/22 = %d%n", i);
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package aptech.fjava.session5;
+
+public class TestWhileEmptyBody {
+	public static void main(String[] args) {
+		int num1 = 1;
+		int num2 = 2241;
+
+		while (++num1 <= --num2);
+	
+		System.out.println("Midpoint is: " + num1);
+	}
+}

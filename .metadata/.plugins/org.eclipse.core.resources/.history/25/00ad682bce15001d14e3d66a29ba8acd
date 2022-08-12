@@ -1,0 +1,16 @@
+package aptech.fjava.session4;
+
+
+public class TestSwitchEnumeration {
+	
+	enum Cards{
+		Spade, Heart, Diamonds, Club
+	}
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package aptech.fjava.session3;
+
+public class UnicodeSequence {
+
+	public static void main(String[] args) {
+		
+		System.out.println("\u0048\u0065\006c\006c\006f"+ "!\n");
+
+	}
+
+}

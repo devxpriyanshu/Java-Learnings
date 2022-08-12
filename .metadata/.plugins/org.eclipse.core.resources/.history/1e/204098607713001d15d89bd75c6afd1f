@@ -1,0 +1,17 @@
+
+public class ClassCar {
+	
+	String company = "Maruti";
+	String product = "Baleno";
+	
+	int year = 2020;
+	double price = 5.65;
+	
+	void buy(){
+		System.out.println("You are buying Baleno 2020 Modal");
+	}
+	
+	void drive() {
+		System.out.println("You are driving the vehicle");
+	}
+}

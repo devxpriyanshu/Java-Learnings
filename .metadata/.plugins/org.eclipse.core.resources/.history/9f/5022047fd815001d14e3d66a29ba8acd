@@ -1,0 +1,26 @@
+package aptech.fjava.s6;
+
+public class TestEmployee {
+	public static void main(String[] args) {
+		// Instantiates an Employee object and initializes it
+		Employee objEmp1 = new Employee();
+		// Invokes the displayEmployeeDetails() method
+		objEmp1.employeeName = "Sagar";
+		objEmp1.employeeAge = 26;
+		objEmp1.employeeSalary = 30000;
+		objEmp1.maritalStatus = true;
+
+		objEmp1.displayEmployeeDetails();
+
+		System.out.println("__________________________________________");
+		Employee objEmp2 = new Employee();
+
+		objEmp2.employeeName = "Hardik";
+		objEmp2.employeeAge = 22;
+		objEmp2.employeeSalary = 15000;
+		objEmp2.maritalStatus = false;
+
+		objEmp2.displayEmployeeDetails();
+
+	}
+}

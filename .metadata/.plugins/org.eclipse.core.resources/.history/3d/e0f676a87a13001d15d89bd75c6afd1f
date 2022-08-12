@@ -1,0 +1,14 @@
+
+public class MainHuman {
+
+	public static void main(String[] args) {
+		
+		Human human = new Human("Prince", 22);
+		
+		System.out.println(human.Name);
+		
+		human.hello();
+
+	}
+
+}

@@ -1,0 +1,31 @@
+package aptech.fjava.session11;
+
+public class TwoWheeler implements IVehicle {
+
+	String ID, type;
+	
+	public TwoWheeler(String ID, String type) {
+		this.ID = ID;
+		this.type = type;
+		}
+	
+	public void start() {
+		System.out.println("Starting the" + type);
+	}
+	
+	public void accelerate(int speed) {
+		System.out.println("Accelerating at speed" + speed);
+	}
+	
+	public void start() {
+		System.out.println("Applying Brake");
+	}
+	
+	public void stop() {
+		System.out.println("Stoping the" + type);
+	}
+	
+	public void displayDetails() {
+		System.out.println("Vehicle no. :" + STATEID +" "+ ID);
+	}
+}

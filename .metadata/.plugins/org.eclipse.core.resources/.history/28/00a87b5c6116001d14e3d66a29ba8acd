@@ -1,0 +1,22 @@
+package aptech.fjava.session6;
+
+public class Point {
+	
+	void displayPoints(int x, int y){
+		if(xCo==yCo) {
+			System.out.println("Points are same!");
+		}
+		else {
+			System.out.println("Points are different!");
+		}
+	}
+
+	public static void main(String[] args) {
+		
+		Point check1 = new Point();
+		
+		check1.displayPoints(10,20);
+
+	}
+
+}

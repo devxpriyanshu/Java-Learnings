@@ -1,0 +1,52 @@
+package aptech.fjava.session8;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
+
+public class ArrayLists {
+	@SuppressWarnings("rawtypes")
+
+	ArrayList names  = new ArrayList();
+
+
+	@SuppressWarnings("unchecked")
+	public void storeNames() {
+		System.out.println("Storing marks. Please wait...");
+		names.add("Priyanshu");
+		names.add("Rishit");
+		names.add("Pratham");
+		
+	}
+
+
+	public void displayNames() {
+		System.out.println("Names are:");
+
+		System.out.println("Iterating ArrayList using for loop:");
+		for (int i = 0; i < names.size(); i++) {
+			System.out.println(names.get(i));
+		}
+		System.out.println("-------------------------------------");
+
+		@SuppressWarnings("rawtypes")
+		Iterator iNames = names.iterator(); 
+		System.out.println("Iterating ArrayList using Iterator:");
+		while (iNames.hasNext()) { 
+			System.out.println(iNames.next());
+		}
+		System.out.println("-------------------------------------");
+
+		Collections.sort(names); 
+		System.out.println("Sorted list is: " + names);
+	}
+
+	public static void main(String[] args) {
+		
+		ArrayLists obj = new ArrayLists();
+	
+		obj.storeNames();
+		
+		obj.displayNames();
+	}
+}

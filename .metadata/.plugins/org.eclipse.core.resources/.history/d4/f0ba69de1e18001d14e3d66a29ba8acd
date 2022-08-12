@@ -1,0 +1,14 @@
+
+public class MainHuman {
+
+	public static void main(String[] args) {
+		
+		Human human = new Human("Anuraj", 22);
+		
+		human.hello();
+		System.out.println("Your age is now "+human.Age);
+		
+
+	}
+
+}

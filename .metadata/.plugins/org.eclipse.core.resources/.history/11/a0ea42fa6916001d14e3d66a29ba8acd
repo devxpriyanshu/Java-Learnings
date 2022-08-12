@@ -1,0 +1,67 @@
+package aptech.fjava.s8;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
+
+public class ArrayLists {
+	@SuppressWarnings("rawtypes")
+	// Create an ArrayListinstance
+//	ArrayList<String> names = new ArrayList<String>(); // line 1
+	ArrayList names  = new ArrayList();
+
+	/**
+	 * Stores marks in ArrayList
+	 *
+	 * @return void
+	 */
+	@SuppressWarnings("unchecked")
+	public void storeNames() {
+		System.out.println("Storing marks. Please wait...");
+		names.add("Zubair");
+		names.add("Anil");
+		names.add("Pankaj");// line 2
+		names.add("Charmi");
+		names.add("Swapnil");
+		names.add("Akhatar");
+	}
+
+	/**
+	 * Displays marks from ArrayList
+	 *
+	 * @return void
+	 */
+	@SuppressWarnings("unchecked")
+	public void displayNames() {
+		System.out.println("Names are:");
+		// iterating the list using for loop
+		System.out.println("Iterating ArrayList using for loop:");
+		for (int i = 0; i < names.size(); i++) {
+			System.out.println(names.get(i));
+		}
+		System.out.println("-------------------------------------");
+		// Iterate the list using Iteratorinterface
+		@SuppressWarnings("rawtypes")
+		Iterator iNames = names.iterator(); // line 3
+		System.out.println("Iterating ArrayList using Iterator:");
+		while (iNames.hasNext()) { // line 4
+			System.out.println(iNames.next()); // line 5
+		}
+		System.out.println("-------------------------------------");
+		// Sort the list
+		Collections.sort(names); // line 6
+		System.out.println("Sorted list is: " + names);
+	}
+
+	/**
+	 * @param arg sthe command line arguments
+	 */
+	public static void main(String[] args) {
+		// Instantiate the class OneDimension
+		ArrayLists obj = new ArrayLists(); // line 7
+		// Invoke the storeMarks() method
+		obj.storeNames();
+		// Invoke the displayMarks() method
+		obj.displayNames();
+	}
+}

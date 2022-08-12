@@ -1,0 +1,49 @@
+package aptech.fjava.session6;
+
+import java.util.Scanner;
+
+public class Point {
+	Scanner scanner = new Scanner(System.in);
+	
+    double x,y;
+    
+    public Point() {
+    	x=0;
+    	y=0;
+    }
+	
+	public void setX(){
+		System.out.println("What is the value of X Coordinate?");
+		x = scanner.nextDouble();
+	}
+	public void setY(){
+		System.out.println("What is the value of Y Coordinate?");
+		y = scanner.nextDouble();
+	}
+	
+	public void displayPoints(){
+		if(x==y) {
+			System.out.println("Points are same!");
+		}
+		else {
+			System.out.println("Points are different!");
+		}
+	}
+
+	public static void main(String[] args) {
+		
+		Point check1 = new Point();
+		Point check2 = new Point();
+		
+		check1.setX();
+		check1.setY();
+		check1.displayPoints();
+		System.out.println("---------------------------------");
+		check2.setX();
+		check2.setY();
+		check2.displayPoints();
+
+
+	}
+
+}

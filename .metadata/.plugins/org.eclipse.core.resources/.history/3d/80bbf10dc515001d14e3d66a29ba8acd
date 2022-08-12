@@ -1,0 +1,10 @@
+package aptech.fjava.session3;
+
+public class DisplaySum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

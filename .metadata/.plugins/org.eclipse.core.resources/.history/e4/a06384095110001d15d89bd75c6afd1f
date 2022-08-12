@@ -1,0 +1,15 @@
+package aptech.fjava.session4;
+
+import java.util.Scanner;
+
+public class InterestPay {
+
+	public static void main(String[] args) {
+		Scanner scanner= new Scanner(System.in);
+		
+		System.out.print("Enter the deposit amount ");
+		int deposit = scanner.nextInt();
+		
+	}
+
+}

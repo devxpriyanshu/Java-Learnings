@@ -1,0 +1,13 @@
+package aptech.fjava.session1;
+
+//TryitYourSelf Session 2. Q1
+
+class HelloWorld {
+
+	public static void main(String[] args) {
+		
+	System.out.println("Hello,\nWelcome to the world of Java.");
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package aptech.fjava.session11;
+
+public interface IVehicle {
+	
+	satic final String STATE="LA-09";
+	
+	public void start();
+	
+	public void accelerate(int Speed);
+	
+	public void brake();
+	
+	public void stop();
+}

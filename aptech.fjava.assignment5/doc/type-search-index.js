@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"aptech.fjava.session5","l":"PrimeNumbersInbetween"}]

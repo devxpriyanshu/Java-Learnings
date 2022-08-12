@@ -1,0 +1,60 @@
+package aptech.fjava.session6;
+
+public class Rectangle {
+	int width;
+	int height;
+
+	Rectangle() {
+		width = 25;
+		height = 20;
+	}
+
+	Rectangle(int w, int h) {
+		this.width = w;
+		this.height = h;
+	}
+
+	public void displyRectangleInfo() {
+		
+		System.out.println("--------------------------------------");
+		System.out.println("width of the rectangle is: " + width);
+		System.out.println("height of the rectangle is: " + height);
+		
+
+	}
+
+	public void displayArea() {
+		int area;
+		area = width * height;
+		System.out.println("area of the rectangle is: " + area);
+		
+	}
+
+	public int calArea() {
+		return width * height;
+	}
+
+	public static void main(String[] args) {
+
+		Rectangle r1 = new Rectangle();
+
+		Rectangle r2 = new Rectangle(50, 40);
+
+		Rectangle r3 = new Rectangle(100, 120);
+
+		r1.displyRectangleInfo();
+		r1.displayArea();
+
+		System.out.println("Area of r1 is : " + r1.calArea());
+
+		r2.displyRectangleInfo();
+		r2.displayArea();
+		System.out.println("Area of r2 is : " + r2.calArea());
+
+		r3.displyRectangleInfo();
+		r3.displayArea();
+		System.out.println("Area of r3 is : " + r3.calArea());
+
+	}
+
+}

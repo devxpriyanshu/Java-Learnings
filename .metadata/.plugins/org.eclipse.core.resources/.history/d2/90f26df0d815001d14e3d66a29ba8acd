@@ -1,0 +1,13 @@
+package aptech.fjava.s6;
+
+public class TestPerson {
+	/**
+	 * @paramargsthe command line arguments
+	 */
+	public static void main(String[] args) {
+		Person objPerson1 = new Person("Sagar", 26);
+		objPerson1.displayDetails();
+		objPerson1.name = "Anil";
+		objPerson1.displayDetails();
+	}
+}

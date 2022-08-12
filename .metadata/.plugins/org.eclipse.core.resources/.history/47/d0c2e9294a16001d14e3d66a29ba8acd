@@ -1,0 +1,67 @@
+package aptech.fjava.session7;
+
+public class Student {
+	int rollNo; // Variable to store roll number
+	String name; // Variable to store student name
+	String address; // Variable to store address
+	float marks; // Variable to store marks
+
+	public Student() {
+		rollNo = 0;
+		name = "";
+		address = "";
+		marks = 0;
+	}
+
+	public Student(int rNo, String sname) {
+		rollNo = rNo;
+		name = sname;
+	}
+
+
+	public Student(int rNo, float score) {
+		rollNo = rNo;
+		marks = score;
+	}
+
+	public Student(String sName, String addr) {
+		name = sName;
+		address = addr;
+	}
+
+	public Student(int rNo, String sname, float score) {
+		rollNo = rNo;
+		name = sname;
+		marks = score;
+	}
+
+	public void displayDetails() {
+		System.out.println("Rollno: " + rollNo);
+		System.out.println("Student name: " + name);
+		System.out.println("Address " + address);
+		System.out.println("Score " + marks);
+		System.out.println("------------------------");
+	}
+
+	public static void main(String[] args) {
+		
+		// Instantiate the Student class with two string arguments Student
+		Student objStud1 = new Student("David", "302, Washington Street");
+		
+		// Invoke the displayDetails() method
+		objStud1.displayDetails();
+		
+		// Create other Student class objects and pass different
+		// parameters to the constructor
+		Student objStud2 = new Student(103, 46);
+		
+		objStud2.displayDetails();
+		
+		Student objStud3 = new Student(104, "Roger", 50);
+		
+		objStud3.displayDetails();
+		
+		objStud3.address = "Nikol, Ahmedabad";
+		objStud3.displayDetails();
+	}
+}

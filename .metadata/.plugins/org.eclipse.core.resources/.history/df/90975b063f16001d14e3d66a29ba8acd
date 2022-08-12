@@ -1,0 +1,77 @@
+package aptech.fjava.s7;
+
+/**
+ * Provides Calculator methods
+ *
+ * @author Anil Jadav 
+ */
+public class Calculator {
+	// Method to add two integers
+
+	/**
+	 * Displays the sum of two integers
+	 *
+	 * @param num1
+	 *            an integer variable storing the value of first number
+	 * @param num2
+	 *            an integer variable storing the value of second number
+	 * @return void
+	 */
+	public void add(int num1, int num2) {
+		int num3;
+		num3 = num1 + num2;
+		System.out.println("Result after addition is " + num3);
+	}
+
+	// Method to subtract two integers
+	/**
+	 * Displays the sub of two integers
+	 *
+	 * @param num1
+	 *            an integer variable storing the value of first number
+	 * @param num2
+	 *            an integer variable storing the value of second number
+	 * @return void
+	 */
+	public void sub(int num1, int num2) {
+		int num3;
+		num3 = num1 - num2;
+		System.out.println("Result after subtraction is " + num3);
+	}
+
+	// Method to multiply two integers
+	/**
+	 * Displays the Multiplication of two integers
+	 *
+	 * @param num1
+	 *            an integer variable storing the value of first number
+	 * @param num2
+	 *            an integer variable storing the value of second number
+	 * @return void
+	 */
+	public void mul(int num1, int num2) {
+		int num3;
+		num3 = num1 * num2;
+		System.out.println("Result after multiplication is " + num3);
+	}
+
+	// Method to divide two integers
+	public void div(int num1, int num2) {
+		int num3;
+		num3 = num1 / num2;
+		System.out.println("Result after division is " + num3);
+	}
+
+	/**
+	 * @paramargsthe command line arguments
+	 */
+	public static void main(String[] args) {
+		// Instantiate the Calculator class
+		Calculator objCalc = new Calculator();
+		// Invoke the methods with appropriate arguments
+		objCalc.add(3, 4);
+		objCalc.mul(3, 4);
+		objCalc.sub(42, 2);
+		objCalc.div(9, 3);
+	}
+}

@@ -1,0 +1,18 @@
+public class Main {
+
+	public static void main(String[] args) {
+		
+		ClassCar myCar = new ClassCar();
+		
+		System.out.println(myCar.product);
+		
+		myCar.drive();
+		
+		ClassCar classcar = new ClassCar("Swift",5.25);
+		
+		System.out.println(classcar.name);
+
+	}
+
+
+}

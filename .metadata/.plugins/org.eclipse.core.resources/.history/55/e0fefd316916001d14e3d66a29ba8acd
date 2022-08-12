@@ -1,0 +1,10 @@
+package aptech.fjava.assignment7;
+
+public class DeviceDetails {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

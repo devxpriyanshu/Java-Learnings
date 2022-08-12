@@ -1,0 +1,36 @@
+package aptech.fjava.session6;
+
+public class Point {
+	
+	int xCo,yCo;
+	
+	Point(int x, int y){
+		this.xCo= x;
+		this.xCo= y;
+	}
+	
+	void setX(){
+		System.out.println("The value of x is: "+ xCo);
+	}
+	void setY(){
+		System.out.println("The value of y is: "+ yCo);
+	}
+	void displayPoints(){
+		if(xCo==yCo) {
+			System.out.println("Points are same!");
+		}
+		else {
+			System.out.println("Points are different!");
+		}
+	}
+
+	public static void main(String[] args) {
+		
+		Point check1 = new Point(10,20);
+		Point check2 = new Point(10,30);
+		
+		check1.displayPoints();
+
+	}
+
+}

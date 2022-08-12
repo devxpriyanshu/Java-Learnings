@@ -1,0 +1,17 @@
+
+public class TwoDimensionalArray {
+
+	public static void main(String[] args) {
+		
+		String[][] cars = new String[2][2];
+		
+		cars[0][0] = "Maruti";
+		cars[0][1] = "Maruti";
+		cars[1][0] = "Maruti";
+		cars[1][1] = "Maruti";
+		
+		System.out.println(cars);
+
+	}
+
+}

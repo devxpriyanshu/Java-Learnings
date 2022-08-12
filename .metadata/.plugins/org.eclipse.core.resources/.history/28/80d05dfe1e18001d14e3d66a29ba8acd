@@ -1,0 +1,15 @@
+
+public class Human {
+	
+	String Name;
+	int Age;
+	
+	Human(String name, int age){
+		this.Name = name;
+		this.Age = age;
+	}
+	
+	void hello(){
+		System.out.println("Hello "+this.Name);
+	}
+}

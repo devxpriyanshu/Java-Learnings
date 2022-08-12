@@ -1,0 +1,13 @@
+package aptech.fjava.s5;
+
+public class PrintMultiplesWithForLoop {
+	public static void main(String[] args) {
+		int num, product;
+		// The for Loop with all the three declaration parts
+		for (num = 1; num <= 7; num++) {
+			product = num * 10;
+
+			System.out.printf("\n % d * 10 = % d ", num, product);
+		} // Moves the control back to the for loop
+	}
+}

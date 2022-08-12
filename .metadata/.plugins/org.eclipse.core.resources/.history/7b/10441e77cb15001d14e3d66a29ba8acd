@@ -1,0 +1,15 @@
+package aptech.fjava.session4;
+
+public class Number_Division {
+
+	public static void main(String[] args) {
+		int number = 12, remainder;
+		// % operator to return the remainder of the division
+		remainder = number % 2;
+		if (remainder == 0) {
+			System.out.println("Number is even");
+		} else {
+			System.out.println("Number is odd");
+		}
+	}
+}

@@ -1,0 +1,13 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		ClassCar myCar = new ClassCar();
+		
+		System.out.println(myCar.product);
+
+	}
+
+
+}

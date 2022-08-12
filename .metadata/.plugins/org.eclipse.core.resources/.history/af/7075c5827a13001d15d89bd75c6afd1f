@@ -1,0 +1,11 @@
+
+public class Human {
+	
+	String Name;
+	int Age;
+	
+	Human(String name, int age){
+		this.Name = name;
+		this.Age = age;
+	}
+}

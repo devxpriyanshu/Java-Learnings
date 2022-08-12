@@ -1,0 +1,13 @@
+package aptech.fjava.session5;
+
+public class InfiniteWhileLoop {
+	public static void main(String[] args) {
+		/*
+		 * Loop begins with a booleanvalue true and is executed infinitely as the
+		 * terminating condition is missing
+		 */
+		while (true) {
+			System.out.println("Welcome to Loops...");
+		} // End of the while loop
+	}
+}

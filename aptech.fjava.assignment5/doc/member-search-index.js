@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"aptech.fjava.session5","c":"PrimeNumbersInbetween","l":"main(String[])","url":"main(java.lang.String[])"},{"p":"aptech.fjava.session5","c":"PrimeNumbersInbetween","l":"PrimeNumbersInbetween()","url":"%3Cinit%3E()"}]

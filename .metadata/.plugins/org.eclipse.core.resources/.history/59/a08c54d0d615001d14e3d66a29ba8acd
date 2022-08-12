@@ -1,0 +1,16 @@
+package aptech.fjava.s5;
+
+public class NumberRoot {
+	public static void main(String[] args) {
+		int cnt, square, cube;
+		// Loop continues till the remainder of the division is 0
+		for (cnt = 1; cnt < 30; cnt++) {
+			if (cnt % 2 != 0) {
+				continue;
+			}
+			square = cnt * cnt;
+			cube = cnt * cnt * cnt;
+			System.out.printf("\nSquareof %d is %d and Cube is %d", cnt, square, cube);
+		} // End of the for loop
+	}
+}

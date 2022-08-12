@@ -1,0 +1,32 @@
+package aptech.fjava.s7;
+
+public class PassByRef {
+	// Method to calculate area of a circle that
+	// takes the object of class Circle as a parameter
+	/**
+	 * Returns the area of a circle
+	 *
+	 * @param rad
+	 *            a variable indicating radius of a circle
+	 * @return the area of the circle
+	 * @see PI
+	 */
+	public void calcArea(Circle objPi, double rad) {
+		
+		// Use getPI() method to retrieve the value of PI
+		double area = objPi.getPI() * rad * rad;
+		// Print the value of area of circle
+		System.out.println("Area of the circle is " + area);
+	}
+
+	public static void main(String[] args) {
+		// Instantiate the PassByRefclass
+		PassByRef p1 = new PassByRef();
+		
+		// Invoke the calcArea() method with object of class Circle as
+		// a parameter
+		Circle c1 = new Circle();
+		
+		p1.calcArea(c1, 4);
+	}
+}
