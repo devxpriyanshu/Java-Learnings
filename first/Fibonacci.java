@@ -9,8 +9,8 @@ public class Fibonacci {
 
         System.out.print("How many number do you want in the Fibonacci Series: ");
         n = sc.nextInt();
-        n1=1;
-        n2=2;
+        n1=0;
+        n2=1;
         System.out.println(n1+"\n"+n2);
         for(int i=0; i<=n; i++){
             n3=n1+n2;
